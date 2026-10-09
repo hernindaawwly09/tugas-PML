@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Data files (large raw files — track only processed)
+data/raw/*.csv
+!data/raw/WMM_North_Pole_Locations_(20202025).csv
+!data/raw/WMM_South_Pole_Locations_(20202025).csv
+
+# Model weights
+results/best_lstm.h5
+*.h5
+*.pkl
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
