@@ -23,6 +23,9 @@ ENV/
 data/raw/*.csv
 !data/raw/WMM_North_Pole_Locations_(20202025).csv
 !data/raw/WMM_South_Pole_Locations_(20202025).csv
+!data/raw/nikah_cerai_jateng_2019_2023.csv
+!data/raw/nikah_cerai_jateng_longformat_2019_2023.csv
+!data/raw/PRDECT-ID Dataset.csv
 
 # Model weights
 results/best_lstm.h5
