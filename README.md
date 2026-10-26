@@ -7,25 +7,25 @@
 
 ---
 
-## 📌 1. Topik Penelitian
+## 1. Topik Penelitian
 **Natural Language Processing (NLP) & Text Classification pada Domain E-Commerce Indonesia:**  
 Analisis Sentimen (Biner) dan Klasifikasi Emosi (Multi-Kelas) terhadap ulasan produk berbahasa Indonesia menggunakan algoritma *Machine Learning* (**Support Vector Machine** dan **Random Forest**) yang dioptimasi dengan prapemrosesan teks terstruktur dan pembobotan fitur **TF-IDF N-Gram**.
 
 ---
 
-## 📚 2. Judul Penelitian
+## 2. Judul Penelitian
 > **"Optimasi Klasifikasi Sentimen dan Emosi Ulasan Produk E-Commerce Indonesia Menggunakan Algoritma Support Vector Machine (SVM) dan Random Forest Berbasis Ekstraksi Fitur TF-IDF"**
 
 ---
 
-## ❓ 3. Pertanyaan Penelitian (Rumusan Masalah)
+## 3. Pertanyaan Penelitian (Rumusan Masalah)
 1. **Bagaimana karakteristik sebaran ulasan konsumen pada dataset PRDECT-ID dalam hal polaritas sentimen (*Positive* vs *Negative*) dan spektrum emosi (*Happy, Sadness, Fear, Love, Anger*) lintas berbagai kategori produk?**
 2. **Bagaimana pengaruh tahapan prapemrosesan teks (*case folding, punctuation removal, cleaning*) dan konfigurasi ekstraksi fitur TF-IDF (*unigram vs bigram*) terhadap akurasi dan stabilitas model klasifikasi?**
 3. **Manakah algoritma yang memberikan performa lebih unggul antara Support Vector Machine (SVM) dan Random Forest dalam klasifikasi sentimen biner maupun klasifikasi emosi multi-kelas berdasarkan metrik Akurasi, Precision, Recall, dan Macro F1-Score?**
 
 ---
 
-## 📊 4. Gambaran Dataset PRDECT-ID
+## 4. Gambaran Dataset PRDECT-ID
 Dataset **PRDECT-ID** bersumber dari ulasan produk Tokopedia (publikasi Fachrurrozi et al., Elsevier Data in Brief) dengan **5.400 baris data** dan 11 atribut:
 * `Category`: 29 kategori produk e-commerce (Komputer, Fashion, Elektronik, dll.)
 * `Product Name`: Nama produk yang diulas
@@ -48,7 +48,7 @@ Dataset **PRDECT-ID** bersumber dari ulasan produk Tokopedia (publikasi Fachrurr
 
 ---
 
-## 🔬 5. Tabel Penelitian Terdahulu (State of the Art)
+## 5. Tabel Penelitian Terdahulu (State of the Art)
 
 | No | Penulis & Tahun | Judul Artikel | Sumber / Jurnal | Algoritma / Metode | Dataset / Objek | Hasil & Temuan Utama |
 |---|---|---|---|---|---|---|
@@ -65,7 +65,7 @@ Dataset **PRDECT-ID** bersumber dari ulasan produk Tokopedia (publikasi Fachrurr
 
 ---
 
-## ⚡ 6. Hasil Eksperimen Baseline (SVM vs Random Forest)
+## 6. Hasil Eksperimen Baseline (SVM vs Random Forest)
 
 Pengujian langsung pada file `data/raw/PRDECT-ID Dataset.csv` menggunakan stratifikasi 80:20 (4.320 data latih, 1.080 data uji) dan representasi TF-IDF Unigram + Bigram (5.000 fitur):
 
@@ -83,7 +83,7 @@ Pengujian langsung pada file `data/raw/PRDECT-ID Dataset.csv` menggunakan strati
 
 ---
 
-## 🗂️ 7. Struktur Repositori Proyek
+## 7. Struktur Repositori Proyek
 ```
 Tugas PML/
 ├── README.md                                    # Dokumentasi utama proyek penelitian
@@ -109,7 +109,7 @@ Tugas PML/
 
 ---
 
-## 🚀 8. Petunjuk Menjalankan Proyek di Lokal
+## 8. Petunjuk Menjalankan Proyek di Lokal
 
 1. **Persiapan Lingkungan:**
    ```powershell
